@@ -1,0 +1,126 @@
+Traceback (most recent call last):
+  File "/workspaces/the_holy_fruit/cta_tracker/fetch_cta.py", line 9, in <module>
+    raise RuntimeError("Please set CTA_API_KEY and STOP_ID in your env")
+RuntimeError: Please set CTA_API_KEY and STOP_ID in your env
+Traceback (most recent call last):
+  File "/workspaces/the_holy_fruit/cta_tracker/fetch_cta.py", line 9, in <module>
+    raise RuntimeError("Please set CTA_API_KEY and STOP_ID in your env")
+RuntimeError: Please set CTA_API_KEY and STOP_ID in your env
+Wrote /workspaces/the_holy_fruit/cta_tracker/www/index.html
+Wrote /workspaces/the_holy_fruit/cta_tracker/www/index.html
+Wrote /workspaces/the_holy_fruit/cta_tracker/www/index.html
+Wrote /workspaces/the_holy_fruit/cta_tracker/www/index.html
+2025-07-29 03:12:02 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'stpid': '40710', 'outputType': 'JSON'}
+2025-07-29 03:12:02 INFO Got 0 ETA entries
+2025-07-29 03:12:02 INFO Wrote /workspaces/the_holy_fruit/cta_tracker/www/index.html with 0 rows
+2025-07-29 03:13:02 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'stpid': '40710', 'outputType': 'JSON'}
+2025-07-29 03:13:02 INFO Got 0 ETA entries
+2025-07-29 03:13:02 INFO Wrote /workspaces/the_holy_fruit/cta_tracker/www/index.html with 0 rows
+2025-07-29 03:14:03 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'stpid': '40710', 'outputType': 'JSON'}
+2025-07-29 03:14:03 INFO Got 0 ETA entries
+2025-07-29 03:14:03 INFO Wrote /workspaces/the_holy_fruit/cta_tracker/www/index.html with 0 rows
+2025-07-29 03:15:03 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+2025-07-29 03:15:03 INFO Fetched 7 arrival entries
+2025-07-29 03:15:03 INFO Wrote 7 rows to /workspaces/the_holy_fruit/cta_tracker/www/index.html
+2025-07-29 03:16:03 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+2025-07-29 03:16:03 INFO Fetched 7 arrival entries
+2025-07-29 03:16:03 INFO Wrote 7 rows to /workspaces/the_holy_fruit/cta_tracker/www/index.html
+2025-07-29 03:17:03 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+2025-07-29 03:17:03 INFO Fetched 7 arrival entries
+2025-07-29 03:17:03 INFO Wrote 7 rows to /workspaces/the_holy_fruit/cta_tracker/www/index.html
+2025-07-29 03:18:04 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+2025-07-29 03:18:04 INFO Fetched 7 arrival entries
+2025-07-29 03:18:04 INFO Wrote 7 rows to /workspaces/the_holy_fruit/cta_tracker/www/index.html
+2025-07-29 03:19:04 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+2025-07-29 03:19:04 INFO Fetched 7 arrival entries
+2025-07-29 03:19:04 INFO Wrote 7 rows to /workspaces/the_holy_fruit/cta_tracker/www/index.html
+2025-07-29 03:20:04 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+2025-07-29 03:20:04 INFO Fetched 8 arrival entries
+2025-07-29 03:20:04 INFO Wrote 8 rows to /workspaces/the_holy_fruit/cta_tracker/www/index.html
+2025-07-29 03:21:04 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+/workspaces/the_holy_fruit/cta_tracker/fetch_cta.py:47: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+2025-07-29 03:21:04 INFO Fetched 8 arrival entries
+/workspaces/the_holy_fruit/cta_tracker/fetch_cta.py:84: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  <p>Last updated: {datetime.utcnow():%Y-%m-%d %H:%M:%S} UTC</p>
+2025-07-29 03:21:04 INFO Wrote 8 rows to /workspaces/the_holy_fruit/cta_tracker/www/index.html
+2025-07-29 03:22:05 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+/workspaces/the_holy_fruit/cta_tracker/fetch_cta.py:47: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+2025-07-29 03:22:05 INFO Fetched 8 arrival entries
+/workspaces/the_holy_fruit/cta_tracker/fetch_cta.py:84: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  <p>Last updated: {datetime.utcnow():%Y-%m-%d %H:%M:%S} UTC</p>
+2025-07-29 03:22:05 INFO Wrote 8 rows to /workspaces/the_holy_fruit/cta_tracker/www/index.html
+2025-07-29 03:23:05 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+/workspaces/the_holy_fruit/cta_tracker/fetch_cta.py:47: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+2025-07-29 03:23:05 INFO Fetched 8 arrival entries
+/workspaces/the_holy_fruit/cta_tracker/fetch_cta.py:84: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  <p>Last updated: {datetime.utcnow():%Y-%m-%d %H:%M:%S} UTC</p>
+2025-07-29 03:23:05 INFO Wrote 8 rows to /workspaces/the_holy_fruit/cta_tracker/www/index.html
+2025-07-29 03:24:05 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+/workspaces/the_holy_fruit/cta_tracker/fetch_cta.py:47: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+2025-07-29 03:24:05 INFO Fetched 8 arrival entries
+/workspaces/the_holy_fruit/cta_tracker/fetch_cta.py:84: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  <p>Last updated: {datetime.utcnow():%Y-%m-%d %H:%M:%S} UTC</p>
+2025-07-29 03:24:05 INFO Wrote 8 rows to /workspaces/the_holy_fruit/cta_tracker/www/index.html
+2025-07-29 03:25:05 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+/workspaces/the_holy_fruit/cta_tracker/fetch_cta.py:47: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+2025-07-29 03:25:05 INFO Fetched 6 arrival entries
+/workspaces/the_holy_fruit/cta_tracker/fetch_cta.py:84: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  <p>Last updated: {datetime.utcnow():%Y-%m-%d %H:%M:%S} UTC</p>
+2025-07-29 03:25:05 INFO Wrote 6 rows to /workspaces/the_holy_fruit/cta_tracker/www/index.html
+  File "/workspaces/the_holy_fruit/cta_tracker/fetch_cta.py", line 34
+    ```python
+    ^
+SyntaxError: invalid syntax
+  File "/workspaces/the_holy_fruit/cta_tracker/fetch_cta.py", line 34
+    ```python
+    ^
+SyntaxError: invalid syntax
+  File "/workspaces/the_holy_fruit/cta_tracker/fetch_cta.py", line 34
+    ```python
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/workspaces/the_holy_fruit/cta_tracker/fetch_cta.py", line 6, in <module>
+    from datetime import datetime, timezone, ZoneInfo
+ImportError: cannot import name 'ZoneInfo' from 'datetime' (/home/codespace/.python/current/lib/python3.12/datetime.py)
+2025-07-29 03:30:06 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+2025-07-29 03:30:06 INFO Fetched 8 arrival entries
+2025-07-29 03:30:06 INFO Wrote 8 rows to /workspaces/the_holy_fruit/cta_tracker/www/index.html
+2025-07-29 03:31:06 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+Traceback (most recent call last):
+  File "/workspaces/the_holy_fruit/cta_tracker/fetch_cta.py", line 127, in <module>
+    trains = get_cta_train_times(CTA_API_KEY, STOP_ID)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/the_holy_fruit/cta_tracker/fetch_cta.py", line 58, in get_cta_train_times
+    total_seconds = int(delta.total_seconds())
+                        ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'datetime.datetime' object has no attribute 'total_seconds'
+2025-07-29 03:32:07 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+2025-07-29 03:32:07 INFO Fetched 10 arrival entries
+2025-07-29 03:32:07 INFO Wrote 10 rows to /workspaces/the_holy_fruit/cta_tracker/www/index.html
+2025-07-29 03:33:07 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+2025-07-29 03:33:07 INFO Fetched 10 arrival entries
+2025-07-29 03:33:07 INFO Wrote 10 rows to /workspaces/the_holy_fruit/cta_tracker/www/index.html
+2025-07-29 03:34:07 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+2025-07-29 03:34:07 INFO Fetched 10 arrival entries
+2025-07-29 03:34:07 INFO Wrote 10 rows to /workspaces/the_holy_fruit/cta_tracker/www/index.html
+2025-07-29 03:35:08 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+2025-07-29 03:35:08 INFO Fetched 10 arrival entries
+2025-07-29 03:35:08 INFO Wrote 10 rows to /workspaces/the_holy_fruit/cta_tracker/www/index.html
+2025-07-29 03:36:08 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+2025-07-29 03:36:08 INFO Fetched 10 arrival entries
+2025-07-29 03:36:08 INFO Wrote 10 rows to /workspaces/the_holy_fruit/cta_tracker/www/index.html
+2025-07-29 03:37:08 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+2025-07-29 03:37:08 INFO Fetched 10 arrival entries
+2025-07-29 03:37:08 INFO Wrote 10 rows to /workspaces/the_holy_fruit/cta_tracker/www/index.html
+2025-07-29 03:38:08 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+2025-07-29 03:38:08 INFO Fetched 10 arrival entries
+2025-07-29 03:38:08 INFO Wrote 10 rows to /workspaces/the_holy_fruit/cta_tracker/www/index.html
+2025-07-29 03:39:09 INFO Requesting http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx with {'key': 'aa6a8fecdc244da7804a01070e1e476a', 'mapid': '40710', 'outputType': 'JSON'}
+2025-07-29 03:39:09 INFO Fetched 9 arrival entries
+2025-07-29 03:39:09 INFO Wrote 9 rows to /workspaces/the_holy_fruit/cta_tracker/www/index.html
